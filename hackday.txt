@@ -1,0 +1,11 @@
+1. I have a few suggestions to improve the editor in the Admin section.
+* Enable spell checking.
+* Auto completion of words.
+* A list of different fonts and font sizes.
+* Auto save.
+
+We can implement a Trie based on all the words available in a dictionary. Later for each word, we can search against the trie to see if a spelling is correct or not. 
+
+For the auto save feature, we can trigger an event every minute to see any changes. If there are any changes since the last save, we can update it with latest data.
+
+2. Show a list of stores based on your current location.

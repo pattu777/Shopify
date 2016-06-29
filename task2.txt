@@ -1,0 +1,37 @@
+I don't have much experience with either Ruby or Java Script. But I found the following errors/warnings in the scripts.
+
+Improvements to JavaScript Code:
+================================
+1. Incorrect use of spaces between operators and variable names.
+Ex -
+* In line 6, there should be a space between 'x' and '='.
+* In line 8, there should be only one space between '=' and 'order_object.price'.
+
+2. In most of the comparisons, '===' should be used instead of '=='.
+Ex -
+* In line 5: order_object.price_level === "free"
+* In line 7: order_object.price_level === "discount"
+
+3. In line 21, 'order' is used instead of the correct variable name 'order_object'.
+
+4. In line 32, 'html' variable is undefined.
+
+5. In line 33, 'html' variable is used before it's defined.
+
+6. "'use strict';" can be used to execute the code in strict mode.
+
+7. Different indentations are applied in different lines.
+
+
+Improvements to Ruby Code:
+==========================
+The constructor function in "TODO" class is not properly initialized. It should be modified as shown below.
+
+##################
+
+def initialize(file_name)
+    @file_name = file_name      ## Initialize with a file name in local directory
+    @items = []
+  end
+
+#################
