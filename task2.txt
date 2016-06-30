@@ -2,7 +2,7 @@ I don't have much experience with either Ruby or Java Script. But I found the fo
 
 Improvements to JavaScript Code:
 ================================
-1. Incorrect use of spaces between operators and variable names.
+1. Improper use of spaces between operators and variable names.
 Ex -
 * In line 6, there should be a space between 'x' and '='.
 * In line 8, there should be only one space between '=' and 'order_object.price'.
@@ -18,9 +18,7 @@ Ex -
 
 5. In line 33, 'html' variable is used before it's defined.
 
-6. "'use strict';" can be used to execute the code in strict mode.
-
-7. Different indentations are applied in different lines.
+6. Different indentations are applied in different lines.
 
 
 Improvements to Ruby Code:
