@@ -1,11 +1,31 @@
-1. I have a few suggestions to improve the editor in the Admin section.
-* Enable spell checking.
-* Auto completion of words.
-* A list of different fonts and font sizes.
-* Auto save.
+1. 
 
-We can implement a Trie based on all the words available in a dictionary. Later for each word, we can search against the trie to see if a spelling is correct or not. 
+Idea:
+=====
+An option to sell products on Pinterest, Twitter etc. I am not sure if it's already been implemented.
 
-For the auto save feature, we can trigger an event every minute to see any changes. If there are any changes since the last save, we can update it with latest data.
+Implementation:
+===============
+We can write back-end scripts to interact with Twitter/Pinterest APIs. We can use their official libraries.  
 
-2. Show a list of stores based on your current location.
+2. 
+
+Idea:
+=====
+Multi currency support within a single store. 
+
+Implementation:
+===============
+For each store, I imagine there should be a db column to hold the currency details. We can create a differen table for currencies. It can have multiple rows with the default currency being the primary key. In the UI, we can add a button to add multiple currencies and set one of them as the default one. It will show a list of all available currencies. Once the user selects different currencies, it will send a POST request via an API which will store the data in the currencies table.
+
+3. 
+
+Idea:
+=====
+Location aware currency display. If a person visits from India, show the cost of a product in "Indian Rupee". If someone visits from Germany, show it in "Euro". This can be really helpful if someone targets multiple markets in different geographical areas. Not sure it might have been already implemented.
+
+Implementation:
+===============
+To be frank, not sure how I would proceed. I would have to do some research about it. 
+
+
